@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+body{
+    font-family: Poppins;
+}
+.container{
+    border: 1px solid #A8B9CA;
+    border-radius: 16px;
+    padding: 16px;
+
+}
+.heading{
+    font-weight: 500;
+    font-size: 20px;
+    color: #0E2C75;
+    text-align: center;
+}
+
+.leave-form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.leave-form label{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E2C75;
+}
+.leave-form input{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5D6C87;
+    border: 1px solid #A8B9CA;
+    padding: 8px 16px;
+    border-radius: 8px;
+    outline: none;
+}
+.leave-form textarea{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5D6C87;
+    border: 1px solid #A8B9CA;
+    padding: 8px 16px;
+    border-radius: 8px;
+    outline: none;
+}
+.leave-form button{
+    font-size: 16px;
+    font-weight: 400;
+    color: #A8B9CA;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    outline: none;
+    background-color: #0E2C75;
+    transition: all 0.3s;
+}
+.leave-form button:hover{
+    color: #A8B9CA;
+    background-color: #304478;
+}

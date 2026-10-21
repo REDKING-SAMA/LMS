@@ -1,0 +1,20 @@
+.date-selector{
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.date-selector button{
+    color: #0B235E;
+    background-color: #E9F0F4;
+    border: none;
+    width: 80px;
+    height: 88px;
+    border-radius: 8px;
+    padding: 8px 24px;
+}
+.date-selector .active{
+    color: white;
+    background-color: #0B235E;
+}
