@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+body{
+    font-family: Poppins;
+}
+.heading-date{
+    font-weight: 500;
+    font-size: 20px;
+    color: #0E2C75;
+}
+.main-attendance-container{
+    border: 1px solid #A8B9CA;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.main-attendance-container p{
+    color: #5D6C87;
+    font-size: 14px;
+    font-weight: 400;
+}
+.main-attendance-container h3{
+    color: #0B235E;
+    font-size: 18px;
+    font-weight: 500;
+}
+.main-attendance-container .attendance-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E9F0F4;
+    padding: 0px 10px;
+}
+.main-attendance-container .attendance-container-space{
+    padding: 0px 10px;
+}
+
+.present{
+    background-color: #D6FC92;
+    color: #235C04;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.absent{
+    background-color: #FED2D9;
+    color: #A3072B;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: 500;
+}
